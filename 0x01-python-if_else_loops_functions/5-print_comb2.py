@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for letter in range(0, 100):
-    if letter == 99:
-        print("{}".format(letter), end="")
+for i in range(100):
+    if i == 99:
+        print("{}".format(i))
     else:
-        print("{:02}".format(letter), end=", ")
+        print("{:02}".format(i), end=", ")
